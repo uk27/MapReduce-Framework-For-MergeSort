@@ -19,8 +19,7 @@ thrift --gen java Node.thrift  thrift --gen java ComputeNode.thrift thrift --gen
 To compile the server and compute node files:
 
 ```
-javac -cp .:../jars/libthrift-0.9.3.jar:../jars/slf4j-api-1.7.14.jar:gen-java
-*.java
+javac -cp .:../jars/libthrift-0.9.3.jar:../jars/slf4j-api-1.7.14.jar:gen-java *.java
 ```
 
 Run:
